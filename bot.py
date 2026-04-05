@@ -47,7 +47,7 @@ def call_ai(prompt):
                 "Content-Type": "application/json",
             },
             json={
-                "model": "deepseek/deepseek-chat",
+                "model": 'openrouter/auto',
                 "messages": [
                     {"role": "user", "content": prompt}
                 ]
